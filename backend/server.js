@@ -3,9 +3,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
-const mongoLabKey = require('./keys');
-
 const User = require('./models/users');
+
+const mongoLabKey = require('./keys');
 
 const posts = [{ message: 'Hello 1' }, { message: 'Hello 2' }];
 
